@@ -29,6 +29,8 @@ services:
       - DB_DATABASE=${DB_DATABASE:-laravel}
       - DB_USERNAME=${DB_USERNAME:-phper}
       - DB_PASSWORD=${DB_PASSWORD:-secret}
+      - GIT_AUTHOR_NAME=tyamadadd
+      - GIT_AUTHOR_EMAIL=yamada@tyamadadd.com
 
   web:
     build:
